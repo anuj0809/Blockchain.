@@ -16,3 +16,17 @@ Pragma solidity (and the version)
 -How IPFS can be used to store files.
 -IPFS to search for files in a specific node
 -Datatypes(string,uint,uint8,byte32,int,and address)Structs,Arrays.
+## Day 5: Data types in-depth and DataStructures
+-Differences between uint8,uint and uint256
+✓uint256 is used if the number needs to be big.
+✓uint8 is used to optimize performance.uint example:
+uint count = 0;
+-Structs are custom data structures.
+Struct example
+you start with the keyword struct.
+```
+struct person{
+     uint ID;
+     string name;
+}
+```
